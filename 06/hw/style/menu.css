@@ -96,10 +96,12 @@
         padding: 12px;
         margin-bottom: 8px;
     }
+    .burger-category h4, .burger-category h5 {
+        margin: 8px;
+    }
 
     .menu-burger .burger-position:last-child {
         margin-bottom: 0;
-        /* border: 2px solid red; */
     }
 
     .burger-position:hover {
