@@ -1,0 +1,93 @@
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: darkgrey;
+    }
+    .container-block {
+        width: 360px;
+        margin: 100px auto;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 56px 20px 91px 20px;
+    }
+    button {
+        border: none;
+        background-color: #fff;
+    }
+    input {
+        width: 316px;
+        height: 44px;
+        border: none;
+        border-radius: 12px;
+        background-color: #EFEFEF;
+        margin-bottom: 29px;
+        padding: 15px;
+    }
+    .category-menu {
+        padding: 0 4px;
+    }
+    .menu-position {
+        display: inline-block;
+        margin-right: 24px;
+        text-align: center;
+    }
+    .position-title {
+        color: #C4C4C4;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+    .menu-position:hover .position-img {
+        background-color: #f5e482;
+    }
+    .menu-position:hover .position-title {
+        color: #000000;
+    }
+    .position-img {
+        width: 74px;
+        height: 74px;
+        border-radius: 12px;
+        background-color: #EFEFEF;
+    }
+    .position-img img {
+        margin: 18px 18px;
+    }
+    .menu-burger {
+        padding: 0 4px;
+    }
+    .burger-position {
+        width: 316px;
+        height: 88px;
+        padding: 10px 4px;
+        border-radius: 10px;
+        background-color: #EFEFEF;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+    .burger-img {
+        width: 60px;
+        height: 60px;
+        text-align: left;
+        margin-left: 16px;
+        display: inline-block;
+    }
+    .burger-img img{
+        width: 60px;
+    }
+    .burger-title {
+        text-align: center;
+        color: #080808;
+        display: inline-block;
+        /* vertical-align: top; */
+        margin-left: 8px;
+    }
+    .menu-burger .burger-position:last-child {
+        margin-bottom: 0;
+        /* border: 2px solid red; */
+    }
+    .burger-position:hover {
+        background-color: #f5e482;
+    }
+    .burger-position:hover .burger-title {
+        color: #f50909;
+    }
