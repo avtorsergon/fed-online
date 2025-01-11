@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+/* правило добавления платных шрифтов
+@font-face {
+    font-family: "My font название";
+    src: url("вставить загруженный шрифт");
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+}
+.conteiner{
+    /* width: 400px; */
+    margin: 100px auto;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 50px;
+    font-weight: 600;
+    line-height: 1.5;
+}
