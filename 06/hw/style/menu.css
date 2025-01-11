@@ -136,6 +136,7 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 17px;
+        color: red;
     }
 
     .menu-burger .burger-position:last-child {
@@ -147,5 +148,5 @@
     }
 
     .burger-position:hover .burger-category {
-        color: #f50909;
+        color: red;
     }
