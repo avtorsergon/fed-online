@@ -52,6 +52,7 @@ a{
     background-color: #FFCE22;
     top: 430px;
     left: 480px;
+    /* border: 1px solid red; */
 }
 .blue{
     background-color: #2137FC;
@@ -65,34 +66,20 @@ a{
     height: 216px;
     top: 147px;
     background-color: transparent;
+    /* z-index: 3; */
 }
 .position-abs.circle{
     z-index: 1;
-    background-color: #ffffff;
-    top: 815px;
-    left: 915px;
-}
-.yelou{
-    width: 444px;
-    height: 444px;
     background-color: #FFCE22;
-    left: 34px;
-    top: 34px;
-    border-radius: 50%;
+    top: 800px;
+    left: 900px;
+    /* border: 1px solid red; */
 }
-.position-abs.img2{
-    width: 358px;
-    height: 205px;
-    top: 250px;
-    left: 76px;
-    background-color: transparent;
-}
-.yeloublue {
+.cblue{
     width: 444px;
-    height: 222px;
+    height: 233.5px;
     background-color: #2137FC;
     left: 34px;
     top: 34px;
-    border-top-right-radius: 225px;
-    border-top-left-radius: 225px;
+    border-radius: 50px;
 }
