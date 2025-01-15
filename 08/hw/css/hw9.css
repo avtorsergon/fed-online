@@ -73,6 +73,7 @@ a{
     left: 915px;
     border-top: 2px solid #2137FC;
     border-bottom: 2px solid #2137FC;
+    box-shadow: 0 4px 6px -3px black;
 }
 .yelou{
     width: 444px;
