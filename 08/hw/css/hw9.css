@@ -71,7 +71,8 @@ a{
     background-color: #ffffff;
     top: 815px;
     left: 915px;
-    border-radius: 2px 0;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
 }
 .yelou{
     width: 444px;
