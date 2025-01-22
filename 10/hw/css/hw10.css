@@ -5,152 +5,144 @@ body{
     background-color: #F2F2F2;
     font-family: "IBM Plex Sans", serif;
 }
-.conteiner-block{
+main{
     width: 1920px;
     height: 960px;
-    margin: 100px auto;
-    position: relative;
-    background: rgba(0, 161, 198, 0.05);
-    border: 2px solid transparent;
+    background-color: #00A1C60D;
+    padding: 142px 128px;
+    margin: 200px auto;
 }
-.title{
-    width: 995px;
-    /* height: 80px; */
-    /* top: 142px; */
-    /* margin-left: 350px; */
+h1>strong{
     font-size: 48px;
-    /* font-weight: 600; */
-    /* text-align: left; */
-    /* align-items: center; */
-    /* display: flex; */
-    text-transform: capitalize;
-    /* position: absolute; */
-    text-shadow: 0px 1px 4px black;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-align: left;
 }
-a{
-    text-decoration: none;
-    color: black
+h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-left: 350px;
+    margin-bottom: -10px;
 }
-.text{
-    /* width: 695px; */
-    /* height: 80px; */
-    top: 232px;
-    /* margin-left: 350px; */
+.title-text{
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 40px;
     text-align: left;
-    /* align-items: center; */
-    /* display: flex; */
-    background-color: transparent;
-    /* position: absolute; */
+    margin-left: 350px;
+    margin-right: 600px;
+    margin-bottom: 50px;
 }
-.text p{
-    /* text-align: left; */
-    line-height: 2;
-}
-.conteinerdev{
-    /* height: 470px; */
-    /* margin-top: 362px; */
-    /* margin-left: 350px; */
-}
-.dev-card{
+.card1{
     width: 295px;
     height: 470px;
-    background-color: white;
-    float: left;
+    background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 0 20px 0 0;
-    position: relative;
+    float: left;
+    margin-left: 350px;
+    margin-right: 20px;
 }
-.oval{
+.card2{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.card3{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.card4{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    float: left;
+}
+.avatar{
     width: 120px;
     height: 120px;
     margin-top: 58px;
     margin-left: 87px;
-    background: rgba(0, 161, 198, 0.05);
+    background-color: white;
     border-radius: 50%;
-    border: 0.1px solid rgb(148, 148, 148);
-    position: absolute;
+} img{
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
 }
-.avatar{
-    width: 114.29px;
-    height: 114.29px;
-    background-color: rgb(151, 249, 149);
-    /* top: 2.86px; */
-    /* left: 2.86px; */
-    border-radius: 50%;
-    /* position: absolute; */
-    border: 0.1px solid rgb(148, 148, 148);
-}
-.avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-.name h3{
+h4{
     text-align: center;
-    font-family: "Catamaran", serif;
-    font-size: 20px;
-    font-weight: 700;
-    top: 210px;
-    left: 0;
-    right: 0;
-    position: absolute;
+    margin-bottom: -10px;
 }
-.name p{
+p{
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    top: 239px;
-    left: 0;
-    right: 0;
-    line-height: 2;
-    position: absolute;
-}
-.icon{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 301px;
-    left: 123px;
+    margin-bottom: 33px;
 }
 .icon1{
     width: 50px;
     height: 50px;
-    position: absolute;
-    top: 301px;
-    left: 55px;
+    border-radius: 50%;
+    background-color: wheat;
+    margin-left: 122px;
 }
-.icon2{
+.icon1 img{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 301px;
-    left: 118px;
+    border-radius: 100%;
 }
-.icon3{
+.icon2 img{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 301px;
-    right: 55px;
+    border-radius: 100%;
+    margin-left: 57px;
+    float: left;
 }
-.icon4{
+.icon3 img{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 301px;
-    left: 91px;
+    border-radius: 100%;
+    margin-left: 15px;
+    float: left;
 }
-.icon5{
+.icon4 img{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 301px;
-    left: 155px;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+.icon5 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 91px;
+    float: left;
+}
+.icon6 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+.icon7 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 91px;
+    float: left;
+}
+.icon8 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 15px;
 }
