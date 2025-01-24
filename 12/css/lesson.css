@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    /* width: 1243px; */
+    width: 65%;
+    /* max-width: 1243px; */
+    /* min-width: 400px; */
+    /* height: auto; */
+    /* min-height: 400px; */
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: yellow;
+}

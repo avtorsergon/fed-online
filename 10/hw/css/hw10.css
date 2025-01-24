@@ -5,18 +5,10 @@ body{
     background-color: #F2F2F2;
     font-family: "IBM Plex Sans", serif;
 }
-main{
-    width: 1920px;
-    height: 960px;
-    background-color: #00A1C60D;
-    padding: 142px 128px;
-    margin: 200px auto;
-}
 h1>strong{
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -0.5px;
-    text-align: left;
 }
 h1{
     font-size: 48px;
@@ -24,17 +16,33 @@ h1{
     line-height: 80px;
     letter-spacing: -0.5px;
     text-align: left;
-    margin-left: 350px;
     margin-bottom: -10px;
+    margin-left: 350px;
 }
 .title-text{
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
     text-align: left;
-    margin-left: 350px;
     margin-right: 600px;
     margin-bottom: 50px;
+    margin-left: 350px;
+}
+.card-container{
+    padding-top: 142px;
+    /* margin-top: 142px;
+    margin-left: 350px;
+    margin-right: 330px; */
+    margin: 200px auto;
+    width: 1920px;
+    height: 960px;
+    background-color: #00A1C60D;
+}
+.card-container .card1:first-child{
+    margin-left: 0;
+}
+.card-container .card4:last-child{
+    margin-right: 0;
 }
 .card1{
     width: 295px;
