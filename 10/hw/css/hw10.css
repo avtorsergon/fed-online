@@ -33,7 +33,8 @@ h1{
     padding-bottom: 128px;
     margin: 200px auto;
     width: 1920px;
-    height: 960px;
+    /* height: auto; */
+    overflow: hidden;
     background-color: #00A1C60D;
 }
 .card-container .card1:first-child{
@@ -45,42 +46,46 @@ h1{
 .card1{
     padding: 56px 0 122px;
     width: 295px;
-    height: auto;
+    /* height: auto; */
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-left: 350px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
     float: left;
+    overflow: hidden;
 }
 .card2{
     padding: 56px 0 122px;
     width: 295px;
-    height: auto;
+    /* height: auto; */
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
     float: left;
+    overflow: hidden;
 }
 .card3{
     padding: 56px 0 122px;
     width: 295px;
-    height: auto;
+    /* height: auto; */
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
     float: left;
+    overflow: hidden;
 }
 .card4{
     padding: 56px 0 122px;
     width: 295px;
-    height: auto;
+    /* height: auto; */
     background-color: #FFFFFF;
     border-radius: 20px;
     font-family: "Catamaran", serif;
     float: left;
+    overflow: hidden;
 }
 .avatar{
     width: 120px;
