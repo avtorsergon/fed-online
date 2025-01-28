@@ -33,7 +33,7 @@ h1{
     padding-bottom: 128px;
     margin: 200px auto;
     width: 1920px;
-    height: auto;
+    height: 960px;
     background-color: #00A1C60D;
 }
 .card-container .card1:first-child{
@@ -43,40 +43,44 @@ h1{
     margin-right: 0;
 }
 .card1{
+    padding: 56px 0 122px;
     width: 295px;
-    height: 470px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-left: 350px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
-    display: inline-block;
+    float: left;
 }
 .card2{
+    padding: 56px 0 122px;
     width: 295px;
-    height: 470px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
-    display: inline-block;
+    float: left;
 }
 .card3{
+    padding: 56px 0 122px;
     width: 295px;
-    height: 470px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-right: 20px;
     font-family: "Catamaran", serif;
-    display: inline-block;
+    float: left;
 }
 .card4{
+    padding: 56px 0 122px;
     width: 295px;
-    height: 470px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 20px;
     font-family: "Catamaran", serif;
-    display: inline-block;
+    float: left;
 }
 .avatar{
     width: 120px;
