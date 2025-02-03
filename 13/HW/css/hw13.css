@@ -8,9 +8,9 @@ body{
 }
 .main-content {
     background-color: #fff;
-    width: 1440px;
+    /* width: 1440px; */
     margin: 0 auto; 
-    padding: 55px 0;
+    /* padding: 55px 0; */
     position: relative;
 }
 .vertical-line {
