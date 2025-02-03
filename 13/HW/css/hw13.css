@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #E5E5E5;
+    background-color: #eae1fd;
     font-size: 16px;
+    margin: 0;
 }
 .main-content {
     background-color: #fff;
     width: 1440px;
-    margin: 100px auto; 
+    margin: 0 auto; 
     padding: 55px 0;
     position: relative;
 }
@@ -17,7 +18,7 @@ body{
     left: 230px;
     top: 0; 
     width: 118px; 
-    height: 1088px;
+    height: 100%;
     background-color: #F9F9F9;
 }
 .header-container {
@@ -26,7 +27,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 160px;
 }
 .menu {
     display: flex;
@@ -107,11 +107,7 @@ body{
     border: none;
     display: inline-block;
 }
-section {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-}
+/* section */
 .section-container {
     display: flex;
     align-items: center;
@@ -122,6 +118,13 @@ section {
 .image img{
     width: 411px;
     height: 533px;
+    margin-top: 160px;
+    margin-left: 135px;
+    margin-right: 149px;
+}
+.text-container{
+    height: 533px;
+    width: 100%;
 }
 .title3{
     font-family: "Nunito", serif;
@@ -260,16 +263,18 @@ h4::before{
 .facebook img{
     position: relative;
 }
-/* footer-container */
+.footer-block{
+    background-color: #fff;
+    padding-top: 51px;
+}
 .footer-container{
-    width: 1440px;
+    width: 100%;
     height: 118px;
     background-color: #3F9AB7;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 51px; 
-    z-index: 1;
+    position: relative;
 }
 .footer-section{
     width: 81%;
