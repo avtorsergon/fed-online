@@ -2,16 +2,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #eae1fd;
     font-size: 16px;
-    margin: 0;
-}
-.main-content {
-    background-color: #fff;
-    /* width: 1440px; */
-    margin: 0 auto; 
-    /* padding: 55px 0; */
     position: relative;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 2px solid red;
 }
 .vertical-line {
     position: absolute;
@@ -20,7 +16,9 @@ body{
     width: 118px; 
     height: 100%;
     background-color: #F9F9F9;
+    z-index: -1;
 }
+/* header-container */
 .header-container {
     width: 81%;
     margin: 0 auto;
@@ -72,20 +70,6 @@ body{
     color: #000000;
     z-index: 1;
 }
-.one-menu {
-    display: flex;
-}
-.one-menu a{
-    margin-right: 35px;
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 22.8px;
-    letter-spacing: 1px;
-    text-align: left;
-    font-family: "Nunito", serif;
-    color: #000000;
-}
 .two-menu{
     display: flex;
     align-items: center;
@@ -107,29 +91,30 @@ body{
     border: none;
     display: inline-block;
 }
-section{
-    margin-top: 51px;
-    padding-bottom: 45px;
+/* content */
+.content{
+    padding: 110px 0 51px;
+    margin-right: 134px;
 }
-.section-container {
+.section-container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 81%;
-    position: relative;
 }
-.image img{
+.image{
     width: 411px;
     height: 533px;
-    margin-top: 160px;
     margin-left: 135px;
     margin-right: 149px;
 }
-.text-container{
-    height: 533px;
-    width: 100%;
+.text-conteiner{
+    width: 50%;
 }
-.title3{
+.text-content{
+    padding-right: 180px;
+    border-right: 1px solid #333333;
+    margin-bottom: 32px;
+}
+.text-content h2{
     font-family: "Nunito", serif;
     font-size: 24px;
     font-weight: 700;
@@ -139,7 +124,7 @@ section{
     display: inline-block;
     position: relative;
 }
-.title3::after {
+.text-content h2::after {
     content: "+"; 
     position: absolute;
     top: 50%;
@@ -154,7 +139,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-.title2{
+.text-content h1{
     font-family: "Nunito", serif;
     font-size: 65px;
     font-weight: 800;
@@ -163,49 +148,55 @@ section{
     color: #000000;
     max-width: 553px;
 }
-p{
+.text-content p{
     font-family: "Roboto", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 28.8px;
     letter-spacing: 1px;
     color: #4F4F4F;
-    max-width: 421px; 
 }
-h4::before{
+.text-content p::before{
     content: "";
-    display: inline-block;
+    display: block;
     background-color: #F2994A;
     width: 188px;
     height: 6px;
-    border-radius: 4px 0px 0px 0px;
+    border-radius: 4px;
+    margin-bottom: 24px;
 }
 .social{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: relative;
 }
-.left-content{
+.left-video{
     display: flex;
     align-items: center;
 }
-.icon{
-    position: relative;
+.left-video button{
     width: 85px;
     height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    background-color: #3F9AB7;
+    border-radius: 100%;
+    margin-right: 20px;
 }
-.Ellipse{
-    width: 85px;
-    height: 85px;
-    display: block;
+.left-video button:hover{
+    background-color:#F2994A;
 }
-.play-icon{
-    position: absolute;
+.left-video span{
+    padding-left: 21px;
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1px;  
 }
 .button{
     padding-left: 21px;
@@ -218,124 +209,73 @@ h4::before{
     line-height: 21.6px;
     letter-spacing: 1px;
 }
-.right-icons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-}
-.right-icons::before{
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    width: 1px;
-    height: 401px;
-    background-color: #333333
-}
-.right-icons a img{
+.right-link a img{
     width: 18px;
     height: 18px;
 }
-.right-icons a{
+.right-link a{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 34px; 
     height: 34px;
-    border-radius: 50%;
+    border-radius: 100%;
+    right: -16px;
 }
-.right-icons a:first-child{
-    margin-top: 38px;
+.right-link-img-hover{
+    display: none;
 }
-.right-icons a:not(:first-child){
-    margin-top: 10px;
+.right-link a:hover{
+    background-color:#F2994A;
 }
-.right-icons a:hover{
-    background-color: #F2994A; 
+.right-link a:hover .right-link-img-hover{
+    display: block;
 }
-.facebook{
-    background-color: #F2994A; 
+.right-link a:hover .right-link-img{
+    display: none;
 }
-.right-icons a img{
-    width: 18px;
-    height: 18px;
-}
-.facebook img{
-    position: relative;
-}
-.footer-block{
-    background-color: #fff;
-    padding-top: 51px;
-}
-.footer-container{
-    width: 100%;
-    height: 118px;
+.footer{
     background-color: #3F9AB7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.footer-section{
-    width: 81%;
-    height: 100%;
+    padding: 32px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.clients{
-    display: flex;
-    align-items: center;
+.avatar-image{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    overflow: hidden;
     position: relative;
+    text-align: center;
 }
-.clients div {
-    width: 55px;
-    height: 55px;
-    position: absolute;
+.avatar-image>img{
+    width: 100%;
 }
-.avatar1{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 0;
-    z-index: 1;
+.avatar-image:nth-child(2){
+    left: -10px;
 }
-.avatar2{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 33px;
-    z-index: 2;
+.avatar-image:nth-child(3){
+    left: -20px;
 }
-.avatar3{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 66px;
-    z-index: 3;
-}
-.avatar3 img{
-    border-radius: 50%;
-}
-.bold{
-    padding-left: 92px;
-    margin-left: 99px;
+.avatar-info strong{
     font-family: "Nunito", serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32.74px;
     color: #fff;
 }
-.clients p{
+.avatar-info span{
     font-family: "Nunito", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 27.28px;
     color: #fff;
 }
+
+
+
 
 
 
