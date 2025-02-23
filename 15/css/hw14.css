@@ -276,24 +276,24 @@ h2 {
     width: 38px;
     height: 38px;
     background-color: transparent;
-    border: 1.5px solid #ffffff;
+    border: 1.5px solid #a7a6a6;
     border-radius: 50%;
 }
 
 .right i,
 .left i {
-    color: #ffffff;
+    color: #a7a6a6;
     font-size: 18px;
 }
 
 .right:hover i,
 .left:hover i {
-    color: #a7a6a6;
+    color: #fff;
 }
 
 .right:hover,
 .left:hover {
-    border: 2px solid #a7a6a6;
+    border: 2px solid #fff;
 }
 
 .right {
