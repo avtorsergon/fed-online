@@ -55,9 +55,9 @@ body {
     margin-left: auto;
 }
 
-.search-icon {
-    width: 35px;
-    height: 35px;
+.fa-solid {
+    font-size: 35px;
+    color: #fff;
 }
 
 .profile-img {
@@ -283,6 +283,7 @@ h2 {
 .right i,
 .left i {
     color: #ffffff;
+    font-size: 18px;
 }
 
 .right:hover i,
