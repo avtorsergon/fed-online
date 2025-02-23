@@ -1,8 +1,9 @@
 @import url(reset.css);
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
     padding-top: 70px;
     font-family: "Inter", sans-serif;
@@ -14,131 +15,148 @@ body{
     background-position: center center;
     min-height: 100vh;
 }
-.container{
+.container {
     width: 95%;
     margin: 0 auto;
 }
 /* Header */
-.header{
+.header {
     display: flex;
     align-items: center;
     margin-bottom: 120px;
 }
-.logo{
+.logo {
     width: 156px;
     height: 48px;
 }
-.divider{
+.divider {
     width: 3px;
     height: 28px;
     background: #fff;
     margin-left: 56px;
 }
-.date{
+.date {
     font-weight: 500;
     font-size: 24px;
     line-height: 28.8px;
     color: white;
     margin-left: 26px;
 }
-.header-icons{
+.header-icons {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-.search-icon{
+.search-icon {
     width: 35px;
     height: 35px;
 }
-.profile-img{
+.profile-img {
     width: 74px;
     height: 74px;
     border-radius: 50%;
     margin-left: 45px;
 }
 /* Content */
-.content{
+.content {
     width: 57%;
     ;
 }
-.genre{
-    width: 3px;
-    height: 33px;
+.genre {
+    display: flex;
+}
+.genre h2 {
+    margin-right: 20px;
+    font-size: 33px;
+    font-weight: 500;
+    text-align: left;
     color: #fff;
 }
-h1{
+.genre h2::after {
+    content: '';
+    padding-right: 20px;
+    border-right: 3px solid #fff;
+}
+.genre h2:last-child {
+    margin-right: 0;
+}
+.genre h2:last-child::after {
+    content: '';
+    border-right: 0;
+}
+h1 {
     font-weight: 800;
     font-size: 64px;
     line-height: 77.45px;
     color: #fff;
     margin-top: 27px;
 }
-.meta{
-    color: #fff;
+.name {
+    display: flex;
     margin-top: 17px;
 }
-.year{
+.name h2 {
+    margin-right: 20px;
     font-weight: 500;
     font-size: 30px;
     line-height: 36.31px;
+    text-align: left;
+    color: #ffffff;
+    border-right: 3px solid white;
+    padding-right: 20px;
+    height: 20px; 
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 8px;
 }
-.divider1{
-    display: inline-block;
-    font-weight: 700;
-    font-size: 15px;
-    color: #fff;
-    vertical-align: middle;
-    position: relative;
-    top: -3px;
-    margin: 0 10px;
+.name h2:last-child {
+    border-right: none;
 }
-.director{
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36.31px;
-}
-.name{
-    color: #A7A6A6;
-    font-weight: 400;
+.name h2 span {
     font-size: 29px;
-    line-height: 35.1px;
-}
-.seasons{
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36.31px;
-    color: white;
-}
-.episode-info{
-    color: #A7A6A6;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 35.1px;
+    line-height: 35px;
+    text-align: left;
+    color: #a7a6a6;
 }
-.description{
+.name h2:nth-last-child() {
+    margin-right: 0;
+} 
+p {
+    padding-right: 150px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.description {
     margin-top: 15px;
     font-weight: 400;
     font-size: 24px;
     line-height: 33.97px;
     color: #A7A6A6;
 }
-.rating i{
+.rating i {
     color: #fff;
     margin-right: 15px;
 }
 .rating i:nth-child(-n + 3) {
     color: #FFEA2B;
 }
-.rating i:last-child{
+.rating i:last-child {
     margin-right: 0;
 }
-.buttons{
+
+.buttons {
     margin-top: 53px;
 }
-button>*{
+button>* {
     vertical-align: middle;
 }
-.stream{
+.stream {
     width: 272px;
     height: 64px;
     border-radius: 10px;
@@ -147,19 +165,19 @@ button>*{
     line-height: 31.14px;
     color: #ffffff;
 }
-.stream{
+.stream {
     margin-right: 90px;
     border: none;
     background-color: #d50d1f;
 }
-.stream img{
+.stream img {
     width: 28px;
     margin-left: 10px;
 }
-.stream:hover{
+.stream:hover {
     color: #a7a6a6;
 }
-.episodes{
+.episodes {
     width: 272px;
     height: 64px;
     border-radius: 10px;
@@ -170,44 +188,44 @@ button>*{
     border: 3px solid white;
     background: transparent;
 }
-.episodes:last-child{
+.episodes:last-child {
     margin-right: 0;
 }
-.episodes:hover{
+.episodes:hover {
     border-color: #a7a6a6;
     color: #a7a6a6;
 }
-.content-1{
+.content-1 {
     width: 57%;
     margin-top: 54px;
 }
-.popular{
+.popular {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-h2{
+h2 {
     font-weight: 800;
     font-size: 22px;
     line-height: 31.79px;
-    letter-spacing: 4px;    
+    letter-spacing: 4px;
     color: #fff;
 }
-.movies{
+.movies {
     width: 100%;
     display: flex;
     margin-top: 32px;
     margin-bottom: 49px;
 }
-.movies img{
+.movies img {
     width: 100%;
     margin-right: 50px;
     border: 1px solid #ffffff;
 }
-.movies img:last-child{
+.movies img:last-child {
     margin-right: 0;
 }
-.movies img:hover{
+.movies img:hover {
     border-color: #a7a6a6;
     filter: brightness(0.8);
 }
@@ -227,19 +245,18 @@ h2{
 .left:hover i {
     color: #a7a6a6;
 }
-
 .right:hover,
 .left:hover {
     border: 2px solid #a7a6a6;
 }
-.right{
+.right {
     margin-left: 20px;
 }
-.age-restriction{
+.age-restriction {
     position: fixed;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     right: 0px;
     width: 174px;
     height: 66px;
